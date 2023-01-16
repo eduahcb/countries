@@ -5,8 +5,8 @@ const Style = createGlobalStyle`
   :root {
     --text-primary: #111517;
     --input: hsl(0, 0%, 52%);
-    --background: #FAFAFA;
-    --elements: #FFFFFF;
+    --background: #fafafa;
+    --elements: #ffffff;
   }
 
   html {
