@@ -3,11 +3,15 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "engines": {
+    "node": ">=18.13.0"
+  },
   "scripts": {
     "dev": "vite",
     "test": "vitest",
     "coverage": "vitest run --coverage",
     "build": "tsc && vite build",
+    "ladle": "ladle serve",
     "preview": "vite preview"
   },
   "dependencies": {
