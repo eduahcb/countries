@@ -12,16 +12,22 @@ export default defineConfig({
     setupFiles: path.join(__dirname, 'src', 'setupTests.ts'),
     environment: 'jsdom',
     coverage: {
+      all: true,
       functions: 90,
       lines: 90,
       branches: 90,
       statements: 90,
       reporter: ['text', 'lcov', 'html'],
+      include: ['**/src/**/**/*.tsx', '**/src/**/**/*.ts'],
       exclude: [
+        '**/src/main.tsx',
+        '**/src/setupTests.ts',
+        '**/src/vite-env.d.ts',
+        '**/src/**/*.stories.tsx',
         '**/src/**/*.test.tsx',
         '**/src/**/*.test.ts'
       ]
-    },
+    }
   },
   plugins: [
     tsconfigPaths(),
