@@ -28,7 +28,7 @@ const Style = createGlobalStyle`
   }
 
   a, input, button, textarea {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
   }
 
   h1, h2, h3, h4, h5, h6, strong {

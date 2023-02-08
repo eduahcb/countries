@@ -11,7 +11,7 @@ export const Content = styled.div`
   padding: 1em;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
+  max-width: 1440px;
 
   @media (min-width: 640px) {
     padding: 1em 1.5em;
@@ -25,7 +25,7 @@ export const Content = styled.div`
     padding: 1em 2.1em;
   }
 
-  @media (min-width: 1200px) {
+  @media (min-width: 1440px) {
     margin: auto;
     padding: 1em 0;
   }
@@ -33,7 +33,7 @@ export const Content = styled.div`
 `
 
 export const Title = styled.h1`
-  font-size: 1rem;
+  font-size: 0.875em;
   color: var(--text-primary);
 
   @media (min-width: 640px) {
@@ -48,7 +48,7 @@ export const Title = styled.h1`
     font-size: 1.5rem;
   }
 
-  @media (min-width: 1200px) {
+  @media (min-width: 1440px) {
     font-size: 2rem;
   }
 `
@@ -66,7 +66,7 @@ export const ImageContainer = styled.div`
   }
 
   p {
-    font-size: 1em;
+    font-size: 0.875rem;
   }
 
   @media (min-width: 640px) {
@@ -102,7 +102,7 @@ export const ImageContainer = styled.div`
     }
   }
 
-  @media (min-width: 1200px) {
+  @media (min-width: 1440px) {
     svg {
       width: 2em;
       height: 2em;
