@@ -1,1 +1,1 @@
-export { useControlled, useCombinedRefs } from 'hooks/commons'
+export { useControlled, useCombinedRefs, useOnClickOutside } from 'hooks/commons'
