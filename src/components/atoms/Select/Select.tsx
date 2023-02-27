@@ -1,4 +1,4 @@
-import React, { useRef, ReactElement, ReactNode, forwardRef, ForwardRefExoticComponent, RefAttributes } from 'react'
+import React, { useRef, ReactElement, ReactNode, forwardRef, ForwardRefExoticComponent, RefAttributes, SyntheticEvent } from 'react'
 
 import { SelectOption } from './SelectOption'
 import { ReactComponent as ArrowDown } from './assets/arrow_down.svg'
@@ -14,9 +14,9 @@ type SelectProps = {
   defaultValue?: string
   open?: boolean
   placeholder?: string
-  onChange?: (event: any, value: any) => void
-  onClose?: (event: any) => void
-  onOpen?: (event: any) => void
+  onChange?: (event: SyntheticEvent, value: any) => void
+  onClose?: (event: SyntheticEvent) => void
+  onOpen?: (event: SyntheticEvent) => void
 }
 
 type ComponentType = ForwardRefExoticComponent<SelectProps & RefAttributes<HTMLInputElement>> & {
@@ -56,7 +56,7 @@ const Select = forwardRef<HTMLInputElement, SelectProps>(({
       value: undefined,
       key: `item-${index}`,
       'data-value': value,
-      onClick: (event) => { handleOnOptionClick(child, event) }
+      onClick: (event: SyntheticEvent) => { handleOnOptionClick(child, event) }
     }, children)
   })
 
@@ -68,7 +68,7 @@ const Select = forwardRef<HTMLInputElement, SelectProps>(({
     setStateOpen((prevState: boolean) => value ?? !prevState)
   }
 
-  const handleOnOptionClick = (child: any, event: any): void => {
+  const handleOnOptionClick = (child: any, event: SyntheticEvent): void => {
     event.stopPropagation()
 
     const { value } = child.props
@@ -81,7 +81,7 @@ const Select = forwardRef<HTMLInputElement, SelectProps>(({
     toggleDropDown(event, false)
   }
 
-  const handleOnClick = (event: any): void => {
+  const handleOnClick = (event: SyntheticEvent): void => {
     event.stopPropagation()
     toggleDropDown(event)
   }
