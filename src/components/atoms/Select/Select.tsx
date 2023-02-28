@@ -45,18 +45,18 @@ const Select = forwardRef<HTMLInputElement, SelectProps>(({
 
   const childrenArray = React.Children.toArray(children)
 
-  const items = childrenArray.map((child, index: number) => {
+  const items = childrenArray.map((child: any, index: number) => {
     const { value, children } = child.props
 
     if (stateValue === String(value)) {
       displayValue.current = children
     }
 
-    return React.cloneElement(child: any, {
+    return React.cloneElement(child, {
       value: undefined,
       key: `item-${index}`,
-      'data-value': value
-      // onClick: (event: SyntheticEvent) => { handleOnOptionClick(child, event) }
+      'data-value': value,
+      onClick: (event: SyntheticEvent) => { handleOnOptionClick(child, event) }
     }, children)
   })
 
