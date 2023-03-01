@@ -1,5 +1,6 @@
-import { isFunction } from 'helpers/isFunction'
 import React, { ReactElement, ReactNode, HTMLAttributes, SyntheticEvent } from 'react'
+
+import { isFunction } from 'helpers/isFunction'
 
 import { Root } from './style'
 
