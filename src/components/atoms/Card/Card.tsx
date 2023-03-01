@@ -12,7 +12,7 @@ export type CardProps = HTMLAttributes<HTMLDivElement> & {
 
 export const Card = ({ children, clickable, onClick: onClickProp, ...rest }: CardProps): ReactElement => {
   const handleOnClick = (event: SyntheticEvent): void => {
-    onClickProp && isFunction(onClickProp) && onClickProp(event)
+    clickable && isFunction(onClickProp) && onClickProp?.(event)
   }
 
   return clickable
@@ -20,6 +20,6 @@ export const Card = ({ children, clickable, onClick: onClickProp, ...rest }: Car
         <Root clickable role="button" onClick={handleOnClick} {...rest}>{ children }</Root>
       )
     : (
-        <Root onClick={handleOnClick} {...rest}>{ children }</Root>
+        <Root data-testid="card-container" onClick={handleOnClick} {...rest}>{ children }</Root>
       )
 }
