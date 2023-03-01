@@ -43,7 +43,7 @@ describe('Card', () => {
       </Card>
     )
 
-    const card: any = screen.queryByRole('button')
+    const card = screen.getByTestId('card-container')
 
     await userEvent.click(card)
 
