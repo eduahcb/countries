@@ -4,7 +4,7 @@ import userEvent from '@testing-library/user-event'
 
 import { Select } from './Select'
 
-describe('Search', () => {
+describe('Select', () => {
   userEvent.setup()
 
   describe('when is uncontrolled', () => {

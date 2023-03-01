@@ -1,15 +1,16 @@
 import React from 'react'
-import { StoryDecorator } from '@ladle/react'
 
 import { GlobalStyle } from '../src/styles/GlobalStyle'
 
-import type { GlobalProvider } from "@ladle/react";
+import { GlobalProvider } from "@ladle/react";
 
 export const Provider: GlobalProvider = ({
-  children
+  children,
 }) => (
   <>
-    <GlobalStyle />
-    {children}
+    <GlobalStyle/> 
+    <div style={{ height: '100%', background: 'var(--background)'}}>
+      {children}
+    </div>
   </>
 );
