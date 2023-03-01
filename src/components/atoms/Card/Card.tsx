@@ -20,6 +20,6 @@ export const Card = ({ children, clickable, onClick: onClickProp, ...rest }: Car
         <Root clickable role="button" onClick={handleOnClick} {...rest}>{ children }</Root>
       )
     : (
-        <Root {...rest} onClick={handleOnClick}>{ children }</Root>
+        <Root onClick={handleOnClick} {...rest}>{ children }</Root>
       )
 }
