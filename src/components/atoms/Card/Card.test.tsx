@@ -34,7 +34,7 @@ describe('Card', () => {
     expect(onClick).toHaveBeenCalled()
   })
 
-  test("shouldn't call onClick prop when it's clickable", async () => {
+  test("shouldn't call onClick prop when it's not clickable", async () => {
     const onClick = vi.fn()
 
     render(
