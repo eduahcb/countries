@@ -4,15 +4,27 @@ export const Root = styled.div`
   background-color: var(--elements);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 
-  padding: 1em 2em;
+  padding: .6em 1em;
   border-radius: 5px;
-
   position: relative;
+  margin-bottom: 1.5rem;
 
   cursor: pointer;
 
   &:focus-within {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4)
+  }
+
+  @media (min-width: 640px) {
+    padding: .7em 1.5em;
+  }
+  
+  @media (min-width: 768px) {
+    padding: .8em 2rem;
+  }
+
+  @media (min-width: 1024px) {
+    padding: 1em 2em;
   }
 `
 
@@ -47,11 +59,18 @@ export const DisplayContainer = styled.div`
 
   span {
     flex: 1;
+    font-size: 0.875rem;
   }
 
   svg {
     margin-left: 2px;
     fill: var(--input);
+  }
+
+  @media (min-width: 640px) {
+    span {
+      font-size: 1rem;
+    }
   }
 `
 
@@ -70,7 +89,21 @@ export const DropdownContainer = styled.div`
 
   padding: .5em 0;
 
-  transform: translate(0px, 60px);
+  transform: translate(0px, 46px);
+
+  @media (min-width: 640px) {
+    transform: translate(0px, 50px);
+  }
+  
+  @media (min-width: 768px) {
+    transform: translate(0px, 55px);
+  }
+
+  @media (min-width: 1024px) {
+    transform: translate(0px, 60px);
+  }
+
+
 `
 
 export const DropdownList = styled.div`

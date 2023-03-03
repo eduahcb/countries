@@ -8,21 +8,21 @@ export const Container = styled.header`
 
 export const Content = styled.div`
   display: flex;
-  padding: 1em;
+  padding: 2em 1em;
   justify-content: space-between;
   align-items: center;
   max-width: 1440px;
 
   @media (min-width: 640px) {
-    padding: 1em 1.5em;
+    padding: 1.5em 1.5em;
   }
   
   @media (min-width: 768px) {
-    padding: 1em 2rem;
+    padding: 1.25em 2rem;
   }
 
   @media (min-width: 1024px) {
-    padding: 1em 2.1em;
+    padding: 1.125 2.1em;
   }
 
   @media (min-width: 1440px) {

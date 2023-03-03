@@ -4,7 +4,8 @@ export const Root = styled.div`
   background-color: var(--elements);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 
-  padding: 1em 2em;
+  margin-bottom: 1.5em;
+  padding: .8em 1em;
   border-radius: 5px;
 
   display: flex;
@@ -14,6 +15,18 @@ export const Root = styled.div`
 
   &:focus-within {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4)
+  }
+
+  @media (min-width: 640px) {
+    padding: .9em 1.5em;
+  }
+  
+  @media (min-width: 768px) {
+    padding: .9em 2rem;
+  }
+
+  @media (min-width: 1024px) {
+    padding: 1em 2em;
   }
 `
 
@@ -45,9 +58,23 @@ export const ImageContainer = styled.span`
   cursor: pointer;
 
   svg {
-    width: 20px;
-    height: 20px;
+    width: 1em;
+    height: 1em;
     fill: var(--input);
+  }
+
+  @media (min-width: 640px) {
+    svg {
+      width: 1.125em;
+      height: 1.125em;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    svg {
+      width: 1.25em;
+      height: 1.25em;
+    }
   }
 `
 
@@ -55,14 +82,25 @@ export const CloseContainer = styled.span`
   display: flex;
   align-items: center;
 
-  width: 18px;
-  height: 18px;
-
   cursor: pointer;
 
   svg {
-    width: 16px;
-    height: 16px;
+    width: 0.9rem;
+    height: 0.9rem;
     fill: var(--input);
+  }
+
+  @media (min-width: 640px) {
+    svg {
+      width: 1rem;
+      height: 1rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+    svg {
+      width: 1.125rem;
+      height: 1.125rem;
+    }
   }
 `

@@ -10,9 +10,14 @@ const Root = styled.div<{ value: any }>`
   height: inherit;
 
   padding: 8px 12px;
+  font-size: 0.875rem;
 
   &:hover {
     background-color: #e9ebed;
+  }
+
+  @media (min-width: 640px) {
+    font-size: 1rem;
   }
 `
 
