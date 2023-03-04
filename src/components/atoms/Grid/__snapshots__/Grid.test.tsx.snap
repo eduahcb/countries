@@ -1,0 +1,81 @@
+// Vitest Snapshot v1
+
+exports[`Grid > should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-gswNZR gMdRZi"
+  >
+    <div>
+      test
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Grid > should match snapshot with gap prop 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-gswNZR bigLVm"
+  >
+    <div>
+      test
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Grid > should match snapshot with lg 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-gswNZR gMdRZi"
+  >
+    <div
+      class="sc-bcXHqe dYjYAm"
+    >
+      test
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Grid > should match snapshot with md 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-gswNZR gMdRZi"
+  >
+    <div
+      class="sc-bcXHqe jVfKEF"
+    >
+      test
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Grid > should match snapshot with sm 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-gswNZR gMdRZi"
+  >
+    <div
+      class="sc-bcXHqe eCBGWj"
+    >
+      test
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Grid > should match snapshot with xl 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-gswNZR gMdRZi"
+  >
+    <div
+      class="sc-bcXHqe edoFpQ"
+    >
+      test
+    </div>
+  </div>
+</DocumentFragment>
+`;
