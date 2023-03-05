@@ -54,7 +54,7 @@ const Flag = styled.div`
 `
 
 const Content = styled.div`
-  padding: 2em;
+  padding: 2.1em;
 `
 
 export const Home = (): ReactElement => {
