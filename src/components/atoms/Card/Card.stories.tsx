@@ -4,6 +4,10 @@ import { action } from '@ladle/react'
 
 import { Card } from 'components/atoms/Card'
 
+export default {
+  title: 'Components / Card'
+}
+
 export const usage = (): ReactElement => {
   return (
     <Card>

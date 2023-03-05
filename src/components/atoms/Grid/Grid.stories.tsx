@@ -4,6 +4,10 @@ import styled from 'styled-components'
 import { Grid } from 'components/atoms/Grid'
 import { Card } from 'components/atoms/Card'
 
+export default {
+  title: 'Components / Grid'
+}
+
 const StyledCard = styled(Card)`
   display: flex;
   justify-content: center;

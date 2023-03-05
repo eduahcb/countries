@@ -2,6 +2,10 @@ import React, { ReactElement, useState } from 'react'
 
 import { Search } from 'components/atoms/Search'
 
+export default {
+  title: 'Components / Search'
+}
+
 type SearchProps = {
   defaultValue?: any
   placeholder?: any

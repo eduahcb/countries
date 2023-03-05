@@ -3,6 +3,7 @@ import styled, { css } from 'styled-components'
 
 const Root = styled.div<GridColumnProps>`
   width: 100%;
+  grid-column: span ${props => props.xs ?? 12};
 
   ${
     props => props.sm && css`
@@ -29,7 +30,7 @@ const Root = styled.div<GridColumnProps>`
   }
 
   ${
-    props => props.lg && css`
+    props => props.xl && css`
       @media (min-width: 1440px) {
         grid-column: span ${props.xl};
       }
@@ -39,14 +40,15 @@ const Root = styled.div<GridColumnProps>`
 
 type GridColumnProps = {
   children: ReactNode
+  xs?: number
   sm?: number
   md?: number
   lg?: number
   xl?: number
 }
 
-export const GridColumn = ({ children, sm, md, lg, xl }: GridColumnProps): ReactElement => {
+export const GridColumn = ({ children, xs, sm, md, lg, xl }: GridColumnProps): ReactElement => {
   return (
-    <Root sm={sm} md={md} lg={lg} xl={xl}>{ children }</Root>
+    <Root xs={xs} sm={sm} md={md} lg={lg} xl={xl}>{ children }</Root>
   )
 }

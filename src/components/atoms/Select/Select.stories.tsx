@@ -2,6 +2,10 @@ import React, { ReactElement, useState } from 'react'
 
 import { Select } from 'components/atoms/Select'
 
+export default {
+  title: 'Components / Select'
+}
+
 export const usage = (): ReactElement => (
   <Select placeholder='Select'>
     <Select.Item value="01">Item 1</Select.Item>

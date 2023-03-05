@@ -20,6 +20,7 @@ export const Search = forwardRef<HTMLInputElement, SearchProps>(({
   onChange: onChangeProp,
   onClear,
   defaultValue,
+  placeholder,
   ...rest
 }: SearchProps, ref) => {
   const [value, setValue] = useControlled({ value: valueProp, defaultValue })
@@ -44,11 +45,11 @@ export const Search = forwardRef<HTMLInputElement, SearchProps>(({
   }
 
   return (
-    <Root onClick={handleOnClick}>
+    <Root onClick={handleOnClick} {...rest}>
       <ImageContainer role="button" onClick={handleOnClick}>
         <SearchIcon name='searchIcon'/>
       </ImageContainer>
-      <Input type="search" value={value} onChange={handleOnChange} ref={combineRef} {...rest} />
+      <Input type="search" value={value} onChange={handleOnChange} ref={combineRef} placeholder={placeholder} />
       {
         !!value && (
         <CloseContainer role="button" onClick={handleOnClear}>

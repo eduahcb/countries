@@ -9,7 +9,6 @@ export const Root = styled.div<CardProps>`
 
   padding: 24px;
 
-
   ${
     props => props.clickable && css`
       &:hover {
