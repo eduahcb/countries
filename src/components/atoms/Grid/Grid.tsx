@@ -7,6 +7,7 @@ const Root = styled.div<GridProps>`
   width: 100%;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+  margin-bottom: 1.5em;
   
   ${
     props => props.gap && css`
