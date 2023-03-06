@@ -1,9 +1,9 @@
-// Vitest Snapshot v1
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`Grid > should match snapshot 1`] = `
 <DocumentFragment>
   <div
-    class="sc-gswNZR gMdRZi"
+    class="sc-gswNZR iuXszx"
   >
     <div>
       test
@@ -15,7 +15,7 @@ exports[`Grid > should match snapshot 1`] = `
 exports[`Grid > should match snapshot with gap prop 1`] = `
 <DocumentFragment>
   <div
-    class="sc-gswNZR bigLVm"
+    class="sc-gswNZR gohYTZ"
   >
     <div>
       test
@@ -27,10 +27,10 @@ exports[`Grid > should match snapshot with gap prop 1`] = `
 exports[`Grid > should match snapshot with lg 1`] = `
 <DocumentFragment>
   <div
-    class="sc-gswNZR gMdRZi"
+    class="sc-gswNZR iuXszx"
   >
     <div
-      class="sc-bcXHqe dYjYAm"
+      class="sc-bcXHqe fzKNzq"
     >
       test
     </div>
@@ -41,10 +41,10 @@ exports[`Grid > should match snapshot with lg 1`] = `
 exports[`Grid > should match snapshot with md 1`] = `
 <DocumentFragment>
   <div
-    class="sc-gswNZR gMdRZi"
+    class="sc-gswNZR iuXszx"
   >
     <div
-      class="sc-bcXHqe jVfKEF"
+      class="sc-bcXHqe jDRcfe"
     >
       test
     </div>
@@ -55,10 +55,10 @@ exports[`Grid > should match snapshot with md 1`] = `
 exports[`Grid > should match snapshot with sm 1`] = `
 <DocumentFragment>
   <div
-    class="sc-gswNZR gMdRZi"
+    class="sc-gswNZR iuXszx"
   >
     <div
-      class="sc-bcXHqe eCBGWj"
+      class="sc-bcXHqe hZLxVA"
     >
       test
     </div>
@@ -69,10 +69,10 @@ exports[`Grid > should match snapshot with sm 1`] = `
 exports[`Grid > should match snapshot with xl 1`] = `
 <DocumentFragment>
   <div
-    class="sc-gswNZR gMdRZi"
+    class="sc-gswNZR iuXszx"
   >
     <div
-      class="sc-bcXHqe edoFpQ"
+      class="sc-bcXHqe irNztP"
     >
       test
     </div>
