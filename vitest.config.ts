@@ -12,6 +12,7 @@ export default defineConfig({
     setupFiles: path.join(__dirname, 'src', 'setupTests.ts'),
     environment: 'jsdom',
     coverage: {
+      provider: 'istanbul',
       all: true,
       functions: 90,
       lines: 90,
@@ -25,7 +26,9 @@ export default defineConfig({
         '**/src/vite-env.d.ts',
         '**/src/**/*.stories.tsx',
         '**/src/**/*.test.tsx',
-        '**/src/**/*.test.ts'
+        '**/src/**/*.test.ts',
+        '**/src/**/repositories/in-memory/*.ts',
+        '**/src/fake-api/*.ts'
       ]
     }
   },
