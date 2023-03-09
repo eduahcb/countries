@@ -18,7 +18,8 @@ export class CountryRepository {
           name: country.name.common,
           population: country.population,
           region: country.region,
-          capital: country.capital
+          capital: country.capital,
+          flag: country.flags.svg
         }
       })
 

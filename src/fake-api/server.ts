@@ -18,8 +18,14 @@ export const fakeApi = (environment: 'development' | 'test' = 'development'): Se
     },
 
     routes () {
-      this.get('/', (schema) => {
+      this.namespace = 'v3.1'
+
+      this.get('/all', (schema) => {
         return schema.all('countries').models
+
+        // return new Response(500, {}, {
+        //   message: 'error'
+        // })
       })
     }
   })

@@ -1,20 +1,56 @@
 import React, { ReactElement } from 'react'
+import { PropagateLoader } from 'react-spinners'
 
-import { Header } from 'components/atoms/Header'
 import { Grid } from 'components/atoms/Grid'
 import { Select } from 'components/atoms/Select'
 
-import { Country } from './Country'
+import { Country } from 'types/country'
 
-import { Main, Search, Container } from './style'
+import { CountryCard } from './CountryCard'
+import { Main, Search, CountryGrid, SpinnerContainer, ErrorContainer } from './style'
 
-export const Home = (): ReactElement => {
+type HomeProps = {
+  countries: Country[]
+  loading: boolean
+  error: { message: string }
+}
+
+export const Home = ({ countries, loading, error }: HomeProps): ReactElement => {
+  const handleCountryRender = (): any => {
+    if (error.message) {
+      return (
+        <ErrorContainer>
+          <p>{error.message}</p>
+        </ErrorContainer>
+      )
+    }
+
+    if (loading) {
+      return (
+        <SpinnerContainer className='ok'>
+          <PropagateLoader color="#36d7b7" />
+        </SpinnerContainer>
+      )
+    }
+
+    return (
+      <CountryGrid>
+        {
+          countries.map(country => (
+            <Grid.Column key={country.name} xs={12} sm={6} lg={4} xl={3}>
+              <CountryCard country={country} />
+            </Grid.Column>
+          ))
+        }
+      </CountryGrid>
+    )
+  }
+
   return (
     <>
-      <Header />
       <Main>
         <Grid gap={24}>
-          <Grid.Column md={8} lg={10}>
+          <Grid.Column xs={12} md={8} lg={10}>
             <Search
               placeholder="Search for a country..."
             />
@@ -29,13 +65,8 @@ export const Home = (): ReactElement => {
           </Grid.Column>
         </Grid>
 
-        <Grid gap={12}>
-          <Grid.Column sm={6} lg={4} xl={3}>
-            <Container>
-                <Country />
-            </Container>
-          </Grid.Column>
-        </Grid>
+        {handleCountryRender()}
+
       </Main>
     </>
   )

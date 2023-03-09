@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components'
 
 const Root = styled.div<GridColumnProps>`
   width: 100%;
-  grid-column: span ${props => props.xs ?? 12};
+  grid-column: span ${props => props.xs ?? 1};
 
   ${
     props => props.sm && css`
@@ -45,10 +45,11 @@ type GridColumnProps = {
   md?: number
   lg?: number
   xl?: number
+  style?: number
 }
 
-export const GridColumn = ({ children, xs, sm, md, lg, xl }: GridColumnProps): ReactElement => {
+export const GridColumn = ({ children, xs, sm, md, lg, xl, style }: GridColumnProps): ReactElement => {
   return (
-    <Root xs={xs} sm={sm} md={md} lg={lg} xl={xl}>{ children }</Root>
+    <Root xs={xs} sm={sm} md={md} lg={lg} xl={xl} style={style}>{ children }</Root>
   )
 }
