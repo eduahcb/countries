@@ -1,0 +1,900 @@
+[
+ {
+  "name": "Gambia",
+  "population": 2416664,
+  "region": "Africa",
+  "capital": [
+   "Banjul"
+  ],
+  "flag": "https://flagcdn.com/gm.svg"
+ },
+ {
+  "name": "Åland Islands",
+  "population": 29458,
+  "region": "Europe",
+  "capital": [
+   "Mariehamn"
+  ],
+  "flag": "https://flagcdn.com/ax.svg"
+ },
+ {
+  "name": "Cape Verde",
+  "population": 555988,
+  "region": "Africa",
+  "capital": [
+   "Praia"
+  ],
+  "flag": "https://flagcdn.com/cv.svg"
+ },
+ {
+  "name": "Turkmenistan",
+  "population": 6031187,
+  "region": "Asia",
+  "capital": [
+   "Ashgabat"
+  ],
+  "flag": "https://flagcdn.com/tm.svg"
+ },
+ {
+  "name": "Qatar",
+  "population": 2881060,
+  "region": "Asia",
+  "capital": [
+   "Doha"
+  ],
+  "flag": "https://flagcdn.com/qa.svg"
+ },
+ {
+  "name": "El Salvador",
+  "population": 6486201,
+  "region": "Americas",
+  "capital": [
+   "San Salvador"
+  ],
+  "flag": "https://flagcdn.com/sv.svg"
+ },
+ {
+  "name": "Georgia",
+  "population": 3714000,
+  "region": "Asia",
+  "capital": [
+   "Tbilisi"
+  ],
+  "flag": "https://flagcdn.com/ge.svg"
+ },
+ {
+  "name": "Equatorial Guinea",
+  "population": 1402985,
+  "region": "Africa",
+  "capital": [
+   "Malabo"
+  ],
+  "flag": "https://flagcdn.com/gq.svg"
+ },
+ {
+  "name": "Ivory Coast",
+  "population": 26378275,
+  "region": "Africa",
+  "capital": [
+   "Yamoussoukro"
+  ],
+  "flag": "https://flagcdn.com/ci.svg"
+ },
+ {
+  "name": "Bahrain",
+  "population": 1701583,
+  "region": "Asia",
+  "capital": [
+   "Manama"
+  ],
+  "flag": "https://flagcdn.com/bh.svg"
+ },
+ {
+  "name": "Finland",
+  "population": 5530719,
+  "region": "Europe",
+  "capital": [
+   "Helsinki"
+  ],
+  "flag": "https://flagcdn.com/fi.svg"
+ },
+ {
+  "name": "Libya",
+  "population": 6871287,
+  "region": "Africa",
+  "capital": [
+   "Tripoli"
+  ],
+  "flag": "https://flagcdn.com/ly.svg"
+ },
+ {
+  "name": "Western Sahara",
+  "population": 510713,
+  "region": "Africa",
+  "capital": [
+   "El Aaiún"
+  ],
+  "flag": "https://flagcdn.com/eh.svg"
+ },
+ {
+  "name": "Ethiopia",
+  "population": 114963583,
+  "region": "Africa",
+  "capital": [
+   "Addis Ababa"
+  ],
+  "flag": "https://flagcdn.com/et.svg"
+ },
+ {
+  "name": "Northern Mariana Islands",
+  "population": 57557,
+  "region": "Oceania",
+  "capital": [
+   "Saipan"
+  ],
+  "flag": "https://flagcdn.com/mp.svg"
+ },
+ {
+  "name": "Bouvet Island",
+  "population": 0,
+  "region": "Antarctic",
+  "flag": "https://flagcdn.com/bv.svg"
+ },
+ {
+  "name": "South Sudan",
+  "population": 11193729,
+  "region": "Africa",
+  "capital": [
+   "Juba"
+  ],
+  "flag": "https://flagcdn.com/ss.svg"
+ },
+ {
+  "name": "Mayotte",
+  "population": 226915,
+  "region": "Africa",
+  "capital": [
+   "Mamoudzou"
+  ],
+  "flag": "https://flagcdn.com/yt.svg"
+ },
+ {
+  "name": "Palestine",
+  "population": 4803269,
+  "region": "Asia",
+  "capital": [
+   "Ramallah",
+   "Jerusalem"
+  ],
+  "flag": "https://flagcdn.com/ps.svg"
+ },
+ {
+  "name": "Turks and Caicos Islands",
+  "population": 38718,
+  "region": "Americas",
+  "capital": [
+   "Cockburn Town"
+  ],
+  "flag": "https://flagcdn.com/tc.svg"
+ },
+ {
+  "name": "Kyrgyzstan",
+  "population": 6591600,
+  "region": "Asia",
+  "capital": [
+   "Bishkek"
+  ],
+  "flag": "https://flagcdn.com/kg.svg"
+ },
+ {
+  "name": "Maldives",
+  "population": 540542,
+  "region": "Asia",
+  "capital": [
+   "Malé"
+  ],
+  "flag": "https://flagcdn.com/mv.svg"
+ },
+ {
+  "name": "Bangladesh",
+  "population": 164689383,
+  "region": "Asia",
+  "capital": [
+   "Dhaka"
+  ],
+  "flag": "https://flagcdn.com/bd.svg"
+ },
+ {
+  "name": "American Samoa",
+  "population": 55197,
+  "region": "Oceania",
+  "capital": [
+   "Pago Pago"
+  ],
+  "flag": "https://flagcdn.com/as.svg"
+ },
+ {
+  "name": "Croatia",
+  "population": 4047200,
+  "region": "Europe",
+  "capital": [
+   "Zagreb"
+  ],
+  "flag": "https://flagcdn.com/hr.svg"
+ },
+ {
+  "name": "Cayman Islands",
+  "population": 65720,
+  "region": "Americas",
+  "capital": [
+   "George Town"
+  ],
+  "flag": "https://flagcdn.com/ky.svg"
+ },
+ {
+  "name": "Afghanistan",
+  "population": 40218234,
+  "region": "Asia",
+  "capital": [
+   "Kabul"
+  ],
+  "flag": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg"
+ },
+ {
+  "name": "Haiti",
+  "population": 11402533,
+  "region": "Americas",
+  "capital": [
+   "Port-au-Prince"
+  ],
+  "flag": "https://flagcdn.com/ht.svg"
+ },
+ {
+  "name": "Antigua and Barbuda",
+  "population": 97928,
+  "region": "Americas",
+  "capital": [
+   "Saint John's"
+  ],
+  "flag": "https://flagcdn.com/ag.svg"
+ },
+ {
+  "name": "Venezuela",
+  "population": 28435943,
+  "region": "Americas",
+  "capital": [
+   "Caracas"
+  ],
+  "flag": "https://flagcdn.com/ve.svg"
+ },
+ {
+  "name": "Ireland",
+  "population": 4994724,
+  "region": "Europe",
+  "capital": [
+   "Dublin"
+  ],
+  "flag": "https://flagcdn.com/ie.svg"
+ },
+ {
+  "name": "Canada",
+  "population": 38005238,
+  "region": "Americas",
+  "capital": [
+   "Ottawa"
+  ],
+  "flag": "https://flagcdn.com/ca.svg"
+ },
+ {
+  "name": "Saint Vincent and the Grenadines",
+  "population": 110947,
+  "region": "Americas",
+  "capital": [
+   "Kingstown"
+  ],
+  "flag": "https://flagcdn.com/vc.svg"
+ },
+ {
+  "name": "Paraguay",
+  "population": 7132530,
+  "region": "Americas",
+  "capital": [
+   "Asunción"
+  ],
+  "flag": "https://flagcdn.com/py.svg"
+ },
+ {
+  "name": "Tuvalu",
+  "population": 11792,
+  "region": "Oceania",
+  "capital": [
+   "Funafuti"
+  ],
+  "flag": "https://flagcdn.com/tv.svg"
+ },
+ {
+  "name": "Mali",
+  "population": 20250834,
+  "region": "Africa",
+  "capital": [
+   "Bamako"
+  ],
+  "flag": "https://flagcdn.com/ml.svg"
+ },
+ {
+  "name": "Austria",
+  "population": 8917205,
+  "region": "Europe",
+  "capital": [
+   "Vienna"
+  ],
+  "flag": "https://flagcdn.com/at.svg"
+ },
+ {
+  "name": "Myanmar",
+  "population": 54409794,
+  "region": "Asia",
+  "capital": [
+   "Naypyidaw"
+  ],
+  "flag": "https://flagcdn.com/mm.svg"
+ },
+ {
+  "name": "Benin",
+  "population": 12123198,
+  "region": "Africa",
+  "capital": [
+   "Porto-Novo"
+  ],
+  "flag": "https://flagcdn.com/bj.svg"
+ },
+ {
+  "name": "Cuba",
+  "population": 11326616,
+  "region": "Americas",
+  "capital": [
+   "Havana"
+  ],
+  "flag": "https://flagcdn.com/cu.svg"
+ },
+ {
+  "name": "Bahamas",
+  "population": 393248,
+  "region": "Americas",
+  "capital": [
+   "Nassau"
+  ],
+  "flag": "https://flagcdn.com/bs.svg"
+ },
+ {
+  "name": "United States Virgin Islands",
+  "population": 106290,
+  "region": "Americas",
+  "capital": [
+   "Charlotte Amalie"
+  ],
+  "flag": "https://flagcdn.com/vi.svg"
+ },
+ {
+  "name": "Ukraine",
+  "population": 44134693,
+  "region": "Europe",
+  "capital": [
+   "Kyiv"
+  ],
+  "flag": "https://flagcdn.com/ua.svg"
+ },
+ {
+  "name": "Aruba",
+  "population": 106766,
+  "region": "Americas",
+  "capital": [
+   "Oranjestad"
+  ],
+  "flag": "https://flagcdn.com/aw.svg"
+ },
+ {
+  "name": "Switzerland",
+  "population": 8654622,
+  "region": "Europe",
+  "capital": [
+   "Bern"
+  ],
+  "flag": "https://flagcdn.com/ch.svg"
+ },
+ {
+  "name": "Liechtenstein",
+  "population": 38137,
+  "region": "Europe",
+  "capital": [
+   "Vaduz"
+  ],
+  "flag": "https://flagcdn.com/li.svg"
+ },
+ {
+  "name": "Comoros",
+  "population": 869595,
+  "region": "Africa",
+  "capital": [
+   "Moroni"
+  ],
+  "flag": "https://flagcdn.com/km.svg"
+ },
+ {
+  "name": "Syria",
+  "population": 17500657,
+  "region": "Asia",
+  "capital": [
+   "Damascus"
+  ],
+  "flag": "https://flagcdn.com/sy.svg"
+ },
+ {
+  "name": "Brunei",
+  "population": 437483,
+  "region": "Asia",
+  "capital": [
+   "Bandar Seri Begawan"
+  ],
+  "flag": "https://flagcdn.com/bn.svg"
+ },
+ {
+  "name": "Curaçao",
+  "population": 155014,
+  "region": "Americas",
+  "capital": [
+   "Willemstad"
+  ],
+  "flag": "https://flagcdn.com/cw.svg"
+ },
+ {
+  "name": "Guernsey",
+  "population": 62999,
+  "region": "Europe",
+  "capital": [
+   "St. Peter Port"
+  ],
+  "flag": "https://flagcdn.com/gg.svg"
+ },
+ {
+  "name": "Liberia",
+  "population": 5057677,
+  "region": "Africa",
+  "capital": [
+   "Monrovia"
+  ],
+  "flag": "https://flagcdn.com/lr.svg"
+ },
+ {
+  "name": "Japan",
+  "population": 125836021,
+  "region": "Asia",
+  "capital": [
+   "Tokyo"
+  ],
+  "flag": "https://flagcdn.com/jp.svg"
+ },
+ {
+  "name": "Samoa",
+  "population": 198410,
+  "region": "Oceania",
+  "capital": [
+   "Apia"
+  ],
+  "flag": "https://flagcdn.com/ws.svg"
+ },
+ {
+  "name": "Solomon Islands",
+  "population": 686878,
+  "region": "Oceania",
+  "capital": [
+   "Honiara"
+  ],
+  "flag": "https://flagcdn.com/sb.svg"
+ },
+ {
+  "name": "Central African Republic",
+  "population": 4829764,
+  "region": "Africa",
+  "capital": [
+   "Bangui"
+  ],
+  "flag": "https://flagcdn.com/cf.svg"
+ },
+ {
+  "name": "Italy",
+  "population": 59554023,
+  "region": "Europe",
+  "capital": [
+   "Rome"
+  ],
+  "flag": "https://flagcdn.com/it.svg"
+ },
+ {
+  "name": "Réunion",
+  "population": 840974,
+  "region": "Africa",
+  "capital": [
+   "Saint-Denis"
+  ],
+  "flag": "https://flagcdn.com/re.svg"
+ },
+ {
+  "name": "Togo",
+  "population": 8278737,
+  "region": "Africa",
+  "capital": [
+   "Lomé"
+  ],
+  "flag": "https://flagcdn.com/tg.svg"
+ },
+ {
+  "name": "Tunisia",
+  "population": 11818618,
+  "region": "Africa",
+  "capital": [
+   "Tunis"
+  ],
+  "flag": "https://flagcdn.com/tn.svg"
+ },
+ {
+  "name": "Taiwan",
+  "population": 23503349,
+  "region": "Asia",
+  "capital": [
+   "Taipei"
+  ],
+  "flag": "https://flagcdn.com/tw.svg"
+ },
+ {
+  "name": "DR Congo",
+  "population": 108407721,
+  "region": "Africa",
+  "capital": [
+   "Kinshasa"
+  ],
+  "flag": "https://flagcdn.com/cd.svg"
+ },
+ {
+  "name": "Mexico",
+  "population": 128932753,
+  "region": "Americas",
+  "capital": [
+   "Mexico City"
+  ],
+  "flag": "https://flagcdn.com/mx.svg"
+ },
+ {
+  "name": "Laos",
+  "population": 7275556,
+  "region": "Asia",
+  "capital": [
+   "Vientiane"
+  ],
+  "flag": "https://flagcdn.com/la.svg"
+ },
+ {
+  "name": "Namibia",
+  "population": 2540916,
+  "region": "Africa",
+  "capital": [
+   "Windhoek"
+  ],
+  "flag": "https://flagcdn.com/na.svg"
+ },
+ {
+  "name": "Saudi Arabia",
+  "population": 34813867,
+  "region": "Asia",
+  "capital": [
+   "Riyadh"
+  ],
+  "flag": "https://flagcdn.com/sa.svg"
+ },
+ {
+  "name": "Faroe Islands",
+  "population": 48865,
+  "region": "Europe",
+  "capital": [
+   "Tórshavn"
+  ],
+  "flag": "https://flagcdn.com/fo.svg"
+ },
+ {
+  "name": "Greece",
+  "population": 10715549,
+  "region": "Europe",
+  "capital": [
+   "Athens"
+  ],
+  "flag": "https://flagcdn.com/gr.svg"
+ },
+ {
+  "name": "Niger",
+  "population": 24206636,
+  "region": "Africa",
+  "capital": [
+   "Niamey"
+  ],
+  "flag": "https://flagcdn.com/ne.svg"
+ },
+ {
+  "name": "Hong Kong",
+  "population": 7500700,
+  "region": "Asia",
+  "capital": [
+   "City of Victoria"
+  ],
+  "flag": "https://flagcdn.com/hk.svg"
+ },
+ {
+  "name": "Cameroon",
+  "population": 26545864,
+  "region": "Africa",
+  "capital": [
+   "Yaoundé"
+  ],
+  "flag": "https://flagcdn.com/cm.svg"
+ },
+ {
+  "name": "Suriname",
+  "population": 586634,
+  "region": "Americas",
+  "capital": [
+   "Paramaribo"
+  ],
+  "flag": "https://flagcdn.com/sr.svg"
+ },
+ {
+  "name": "Ecuador",
+  "population": 17643060,
+  "region": "Americas",
+  "capital": [
+   "Quito"
+  ],
+  "flag": "https://flagcdn.com/ec.svg"
+ },
+ {
+  "name": "Russia",
+  "population": 144104080,
+  "region": "Europe",
+  "capital": [
+   "Moscow"
+  ],
+  "flag": "https://flagcdn.com/ru.svg"
+ },
+ {
+  "name": "Dominica",
+  "population": 71991,
+  "region": "Americas",
+  "capital": [
+   "Roseau"
+  ],
+  "flag": "https://flagcdn.com/dm.svg"
+ },
+ {
+  "name": "Monaco",
+  "population": 39244,
+  "region": "Europe",
+  "capital": [
+   "Monaco"
+  ],
+  "flag": "https://flagcdn.com/mc.svg"
+ },
+ {
+  "name": "Mozambique",
+  "population": 31255435,
+  "region": "Africa",
+  "capital": [
+   "Maputo"
+  ],
+  "flag": "https://flagcdn.com/mz.svg"
+ },
+ {
+  "name": "Kosovo",
+  "population": 1775378,
+  "region": "Europe",
+  "capital": [
+   "Pristina"
+  ],
+  "flag": "https://flagcdn.com/xk.svg"
+ },
+ {
+  "name": "Iraq",
+  "population": 40222503,
+  "region": "Asia",
+  "capital": [
+   "Baghdad"
+  ],
+  "flag": "https://flagcdn.com/iq.svg"
+ },
+ {
+  "name": "Montenegro",
+  "population": 621718,
+  "region": "Europe",
+  "capital": [
+   "Podgorica"
+  ],
+  "flag": "https://flagcdn.com/me.svg"
+ },
+ {
+  "name": "Saint Barthélemy",
+  "population": 4255,
+  "region": "Americas",
+  "capital": [
+   "Gustavia"
+  ],
+  "flag": "https://flagcdn.com/bl.svg"
+ },
+ {
+  "name": "Mongolia",
+  "population": 3278292,
+  "region": "Asia",
+  "capital": [
+   "Ulan Bator"
+  ],
+  "flag": "https://flagcdn.com/mn.svg"
+ },
+ {
+  "name": "Chad",
+  "population": 16425859,
+  "region": "Africa",
+  "capital": [
+   "N'Djamena"
+  ],
+  "flag": "https://flagcdn.com/td.svg"
+ },
+ {
+  "name": "British Virgin Islands",
+  "population": 30237,
+  "region": "Americas",
+  "capital": [
+   "Road Town"
+  ],
+  "flag": "https://flagcdn.com/vg.svg"
+ },
+ {
+  "name": "Kenya",
+  "population": 53771300,
+  "region": "Africa",
+  "capital": [
+   "Nairobi"
+  ],
+  "flag": "https://flagcdn.com/ke.svg"
+ },
+ {
+  "name": "Cambodia",
+  "population": 16718971,
+  "region": "Asia",
+  "capital": [
+   "Phnom Penh"
+  ],
+  "flag": "https://flagcdn.com/kh.svg"
+ },
+ {
+  "name": "Portugal",
+  "population": 10305564,
+  "region": "Europe",
+  "capital": [
+   "Lisbon"
+  ],
+  "flag": "https://flagcdn.com/pt.svg"
+ },
+ {
+  "name": "Somalia",
+  "population": 15893219,
+  "region": "Africa",
+  "capital": [
+   "Mogadishu"
+  ],
+  "flag": "https://flagcdn.com/so.svg"
+ },
+ {
+  "name": "Falkland Islands",
+  "population": 2563,
+  "region": "Americas",
+  "capital": [
+   "Stanley"
+  ],
+  "flag": "https://flagcdn.com/fk.svg"
+ },
+ {
+  "name": "Pitcairn Islands",
+  "population": 56,
+  "region": "Oceania",
+  "capital": [
+   "Adamstown"
+  ],
+  "flag": "https://flagcdn.com/pn.svg"
+ },
+ {
+  "name": "Nicaragua",
+  "population": 6624554,
+  "region": "Americas",
+  "capital": [
+   "Managua"
+  ],
+  "flag": "https://flagcdn.com/ni.svg"
+ },
+ {
+  "name": "Sri Lanka",
+  "population": 21919000,
+  "region": "Asia",
+  "capital": [
+   "Sri Jayawardenepura Kotte"
+  ],
+  "flag": "https://flagcdn.com/lk.svg"
+ },
+ {
+  "name": "Norway",
+  "population": 5379475,
+  "region": "Europe",
+  "capital": [
+   "Oslo"
+  ],
+  "flag": "https://flagcdn.com/no.svg"
+ },
+ {
+  "name": "Martinique",
+  "population": 378243,
+  "region": "Americas",
+  "capital": [
+   "Fort-de-France"
+  ],
+  "flag": "https://flagcdn.com/mq.svg"
+ },
+ {
+  "name": "Seychelles",
+  "population": 98462,
+  "region": "Africa",
+  "capital": [
+   "Victoria"
+  ],
+  "flag": "https://flagcdn.com/sc.svg"
+ },
+ {
+  "name": "Madagascar",
+  "population": 27691019,
+  "region": "Africa",
+  "capital": [
+   "Antananarivo"
+  ],
+  "flag": "https://flagcdn.com/mg.svg"
+ },
+ {
+  "name": "New Zealand",
+  "population": 5084300,
+  "region": "Oceania",
+  "capital": [
+   "Wellington"
+  ],
+  "flag": "https://flagcdn.com/nz.svg"
+ },
+ {
+  "name": "Saint Kitts and Nevis",
+  "population": 53192,
+  "region": "Americas",
+  "capital": [
+   "Basseterre"
+  ],
+  "flag": "https://flagcdn.com/kn.svg"
+ },
+ {
+  "name": "Niue",
+  "population": 1470,
+  "region": "Oceania",
+  "capital": [
+   "Alofi"
+  ],
+  "flag": "https://flagcdn.com/nu.svg"
+ },
+ {
+  "name": "Timor-Leste",
+  "population": 1318442,
+  "region": "Asia",
+  "capital": [
+   "Dili"
+  ],
+  "flag": "https://flagcdn.com/tl.svg"
+ }
+]
